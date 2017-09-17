@@ -1,0 +1,57 @@
+.imagecontour {
+ padding: 10px; 
+ border: solid 1px #EFEFEF;
+ background-color: #FFFFFF;
+ }
+ 
+.effect2
+{
+  position: relative;
+}
+.effect2:before, .effect2:after
+{
+  z-index: -1;
+  position: absolute;
+  content: "";
+  bottom: 15px;
+  left: 10px;
+  width: 50%;
+  top: 80%;
+  max-width:300px;
+  background: #777;
+  box-shadow: 0 15px 10px #777;
+  transform: rotate(-3deg);
+}
+.effect2:after
+{
+  transform: rotate(3deg);
+  right: 10px;
+  left: auto;
+}
+
+@media (min-width: 992px)
+{
+  .c-page-on-scroll .c-layout-header.c-layout-header-default {
+    background: rgba(238, 238, 238, 0.9)!important;
+  }
+}
+
+@media (min-width: 992px){
+  .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:focus > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler), .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:active > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler), .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:hover > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler), .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li.c-active > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler) {
+      color: #000000 !important;
+  }
+  .c-page-on-scroll .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon, .c-page-on-scroll .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link{
+    color: #000000 !important;
+  }
+  .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:focus > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler):before, .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:active > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler):before, .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li:hover > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler):before, .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li.c-active > a:not(.btn):not(.c-btn-icon):not(.c-quick-sidebar-toggler):before{
+    background:#000000!important;
+  }
+  .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-btn-icon, .c-layout-header.c-layout-header-default .c-navbar .c-mega-menu > .nav.navbar-nav > li > .c-link{
+    color: 	#24272B !important;
+  }
+}
+
+.table-borderless td,
+.table-borderless th {
+    border: 0;
+}
